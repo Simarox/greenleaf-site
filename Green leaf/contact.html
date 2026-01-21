@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Green Leaf Tree Care | East Charlotte, NC</title>
+  
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo">
+        <img src="https://media.istockphoto.com/id/2168608306/vector/geometric-flowers-and-leaves-icons.jpg?s=612x612&w=0&k=20&c=IX3t0KYNIrUD6sX_Slsu2tkGCWbyAbDwhmY76bGdn1c=" alt="Green Leaf Logo" width="50" height="50">
+        <span>Green Leaf</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <a href="/tree-services" class="dropdown-toggle">Tree Services <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="tree-removal.html">Tree Removal</a>
+            <a href="p-t.html">Pruning & Trimming</a>
+            <a href="stump-removal.html">Stump Removal</a>
+            <a href="emergency.html">Emergency Services</a>
+          </div>
+        </div>
+        <a href="gallery.html">Gallery</a>
+        <a href="areas.html">Areas We Serve</a>
+        <a href="review.html">Reviews</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Contact Green Leaf Tree Care</h1>
+      <p>Get a free quote today! Call us, email, or fill out the form below – we're ready to help with your tree needs in East Charlotte and surrounding areas.</p>
+      <a href="tel:+1704XXXXXXX" class="btn">Call Now: (704) XXX-XXXX</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>We're local, responsive, and here for emergencies or routine care. Reach out anytime!</p>
+
+        <div class="info-item">
+          <i class="fas fa-phone-volume"></i>
+          <div>
+            <strong>Phone (24/7 Emergencies):</strong>
+            <a href="tel:+1704XXXXXXX">(704) XXX-XXXX</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <strong>Email:</strong>
+            <a href="mailto:info@greenleaftreenc.com">info@greenleaftreenc.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <strong>Service Area:</strong>
+            <p>East Charlotte, NC & Surrounding Communities (Mint Hill, Matthews, Harrisburg, etc.)</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <i class="fas fa-clock"></i>
+          <div>
+            <strong>Hours:</strong>
+            <p>24/7 Emergency Response<br>Regular Hours: Mon–Fri 8AM–6PM, Sat 9AM–3PM</p>
+          </div>
+        </div>
+
+        <!-- Yelp link from previous -->
+        <div class="info-item">
+          <i class="fab fa-yelp"></i>
+          <div>
+            <strong>Check Reviews:</strong>
+            <a href="https://www.yelp.com/biz/green-leaf-tree-service-monroe" target="_blank" rel="noopener noreferrer">View on Yelp</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Request a Free Quote</h2>
+        <form action="https://formspree.io/f/mvzzdgpy" method="POST" id="contactForm">
+<div class="form-group">
+<label for="phone">Phone Number * <small>(we'll call you quickly)</small></label>
+<input type="tel" id="phone" name="phone" required placeholder="(704) XXX-XXXX" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Format: 704-555-1234">
+</div>
+
+<div class="form-group">
+<label for="name">Your Name *</label>
+<input type="text" id="name" name="name" required placeholder="John Doe">
+</div>
+
+<div class="form-group">
+<label for="email">Email (optional – for sending quote/photos)</label>
+<input type="email" id="email" name="email" placeholder="your@email.com">
+</div>
+
+<div class="form-group">
+<label for="zip">ZIP Code / Address * <small>(helps us confirm we serve your area)</small></label>
+<input type="text" id="zip" name="zip" required placeholder="28212 or 123 Main St, Charlotte, NC">
+</div>
+
+<div class="form-group">
+<label for="service">Service Needed *</label>
+<select id="service" name="service" required>
+<option value="">Select one</option>
+<option value="tree-removal">Tree Removal</option>
+<option value="pruning-trimming">Pruning & Trimming</option>
+<option value="stump-removal">Stump Removal</option>
+<option value="emergency">Emergency / Storm Damage</option>
+<option value="other">Other (describe below)</option>
+</select>
+</div>
+
+<div class="form-group">
+<label for="message">Details / Message (optional)</label>
+<textarea id="message" name="message" rows="5" placeholder="Tree size, condition, when it happened, urgency, photos if any..."></textarea>
+</div>
+
+<div class="form-actions">
+<button type="submit" class="btn">Get Free Quote</button>
+<a href="tel:+1704XXXXXXX" class="btn call-btn">Or Call Now: (704) XXX-XXXX</a>
+</div>
+</form>
+
+<p class="form-note">We'll call or email you within a few hours (faster for emergencies). Your information is secure and used only for your quote.</p>
+        <p class="form-note">We'll respond within 24 hours (faster for emergencies). Your info is secure.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="map-section">
+    <h2>Our Service Area in East Charlotte</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103467.097891166!2d-80.712!3d35.227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541f8c!2sEast%20Charlotte%2C%20Charlotte%2C%20NC!5e0!3m2!1sen!2sus!4vYOUR_EMBED_KEY" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Replace src with your exact embed from Google Maps (search "East Charlotte NC" and click Share > Embed) -->
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="cta-content">
+      <h2>Ready to Get Started?</h2>
+      <p>Call, email, or submit the form – we're here to help protect your property with expert tree care.</p>
+      <a href="tel:+1704XXXXXXX" class="btn">Call for Immediate Help</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column">
+        <h3>Green Leaf Tree Care</h3>
+        <p>Professional Tree Services Since 2005</p>
+        <p>East Charlotte, NC & Surrounding Areas</p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tree-removal.html">Tree Removal</a></li>
+          <li><a href="p-t.html">Pruning & Trimming</a></li>
+          <li><a href="stump-removal.html">Stump Removal</a></li>
+          <li><a href="emergency.html">Emergency Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="areas.html">Areas We Serve</a></li>
+          <li><a href="review.html">Reviews</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-phone"></i> <a href="tel:+1704XXXXXXX">(704) XXX-XXXX</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="mailto:info@greenleaftreenc.com">info@greenleaftreenc.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Charlotte, NC 282XX</p>
+      </div>
+      <div class="footer-column social">
+        <h3>Follow Us</h3>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.yelp.com/biz/green-leaf-tree-service-monroe" target="_blank" rel="noopener noreferrer"><i class="fab fa-yelp"></i></a>
+        <a href="#"><i class="fab fa-google"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Green Leaf Tree Care. All rights reserved. | Insured & Family-Owned</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
